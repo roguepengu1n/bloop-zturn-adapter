@@ -1,0 +1,19 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN
+1,"Generic connector, double row, 02x40, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x40_Odd_Even,J2,Z-Turn CN2,PinHeader_2x40_P1.27mm_Vertical_SMD,1,https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021111.pdf,20021111-00080T4LF
+2,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,P2 P3,BLOOP SPI CONTROL,PinHeader_2x20_P2.54mm_Vertical_SMD,2,https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95157.pdf,95157-140LF
+
+
+
+
+
+Component Groups:,2
+Component Count:,3
+Fitted Components:,3
+Number of PCBs:,1
+Total components:,3
+Schematic Version:,Rev A
+Schematic Date:,2020-01-12
+PCB Variant:,[u'default']
+BoM Date:,Sun 12 Jan 2020 03:46:34 PM CST
+Schematic Source:,/home/leo/projects/bloop-zturn-adapter/hardware/bloop-zturn-adapter.sch
+KiCad Version:,Eeschema 5.1.5-52549c5~84~ubuntu18.04.1

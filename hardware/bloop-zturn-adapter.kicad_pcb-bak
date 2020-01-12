@@ -10,6 +10,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "Bloop Z-Turn Adapter")
+    (date 2020-01-12)
+    (rev RevA)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -1291,7 +1297,7 @@
     )
   )
 
-  (gr_text "Z-Turn CN2" (at 121 94 90) (layer F.SilkS) (tstamp 5E1CA1AD)
+  (gr_text "Z-Turn CN2" (at 121 93.5 90) (layer F.SilkS) (tstamp 5E1CA1AD)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Bloop Z-Turn Adapter Rev A" (at 111 95 270) (layer B.SilkS)
@@ -1313,9 +1319,6 @@
   (gr_line (start 117.432 67.612) (end 117.051 66.977) (layer F.SilkS) (width 0.12))
 
   (segment (start 113.45 68.755) (end 113.45 70.025) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 119.718 115.745) (end 117.35 115.745) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 119.718 118.285) (end 117.35 118.285) (width 0.25) (layer F.Cu) (net 15))
-  (segment (start 117.35 117.015) (end 119.718 117.015) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 119.718 114.475) (end 117.35 114.475) (width 0.25) (layer F.Cu) (net 2))
   (via (at 166.4794 99.489) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 169.8576 99.489) (end 166.4794 99.489) (width 0.25) (layer F.Cu) (net 2))
@@ -1323,12 +1326,14 @@
   (via (at 119.718 114.475) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 144.5338 99.489) (end 129.5478 114.475) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 129.5478 114.475) (end 119.718 114.475) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 117.35 117.015) (end 119.718 117.015) (width 0.25) (layer F.Cu) (net 3))
   (via (at 166.4794 104.569) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (segment (start 169.8576 104.569) (end 166.4794 104.569) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 166.4794 104.569) (end 144.8894 104.569) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 144.8894 104.569) (end 132.4434 117.015) (width 0.25) (layer B.Cu) (net 3))
   (via (at 119.718 117.015) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (segment (start 132.4434 117.015) (end 119.718 117.015) (width 0.25) (layer B.Cu) (net 3))
+  (segment (start 119.718 115.745) (end 117.35 115.745) (width 0.25) (layer F.Cu) (net 5))
   (via (at 119.7434 115.7704) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 119.718 115.745) (end 119.7434 115.7704) (width 0.25) (layer F.Cu) (net 5))
   (segment (start 119.7434 115.7704) (end 131.2242 115.7704) (width 0.25) (layer B.Cu) (net 5))
@@ -1364,6 +1369,7 @@
   (via (at 111.082 117.015) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 13))
   (segment (start 135.3136 119.301) (end 144.9656 109.649) (width 0.25) (layer B.Cu) (net 13))
   (segment (start 144.9656 109.649) (end 166.5556 109.649) (width 0.25) (layer B.Cu) (net 13))
+  (segment (start 119.718 118.285) (end 117.35 118.285) (width 0.25) (layer F.Cu) (net 15))
   (via (at 119.75 118.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 15))
   (segment (start 119.718 118.285) (end 119.718 118.282) (width 0.25) (layer F.Cu) (net 15))
   (segment (start 119.718 118.282) (end 119.75 118.25) (width 0.25) (layer F.Cu) (net 15))

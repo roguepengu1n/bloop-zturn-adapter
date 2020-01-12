@@ -156,7 +156,8 @@ P 7200 3400
 F 0 "P3" H 7250 4517 50  0000 C CNN
 F 1 "BLOOP SPI CONTROL" H 7250 4426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD" H 7200 3400 50  0001 C CNN
-F 3 "~" H 7200 3400 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95157.pdf" H 7200 3400 50  0001 C CNN
+F 4 "95157-140LF" H 7200 3400 50  0001 C CNN "MPN"
 	1    7200 3400
 	1    0    0    -1  
 $EndComp
@@ -167,7 +168,8 @@ P 9550 3400
 F 0 "P2" H 9600 4517 50  0000 C CNN
 F 1 "BLOOP SPI CONTROL" H 9600 4426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD" H 9550 3400 50  0001 C CNN
-F 3 "~" H 9550 3400 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95157.pdf" H 9550 3400 50  0001 C CNN
+F 4 "95157-140LF" H 9550 3400 50  0001 C CNN "MPN"
 	1    9550 3400
 	1    0    0    -1  
 $EndComp
